@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3244397628EBDDC2006A15EC /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3244397528EBDDC2006A15EC /* LocalFileManager.swift */; };
 		32DEADAD28E0409000E97CD8 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DEADAC28E0409000E97CD8 /* SwiftfulCryptoApp.swift */; };
 		32DEADAF28E0409000E97CD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DEADAE28E0409000E97CD8 /* ContentView.swift */; };
 		32DEADB128E0409200E97CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DEADB028E0409200E97CD8 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3244397528EBDDC2006A15EC /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		32DEADA928E0409000E97CD8 /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DEADAC28E0409000E97CD8 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		32DEADAE28E0409000E97CD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				32DEADD828E7F22900E97CD8 /* NetworkingManager.swift */,
+				3244397528EBDDC2006A15EC /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				32DEADCD28E6A0F300E97CD8 /* CoinRowView.swift in Sources */,
 				32DEADD328E6EFDD00E97CD8 /* HomeViewModel.swift in Sources */,
 				32DEADAF28E0409000E97CD8 /* ContentView.swift in Sources */,
+				3244397628EBDDC2006A15EC /* LocalFileManager.swift in Sources */,
 				32DEADC228E2D6B600E97CD8 /* HomeView.swift in Sources */,
 				32DEADDC28E82DC700E97CD8 /* CoinImageView.swift in Sources */,
 				32DEADAD28E0409000E97CD8 /* SwiftfulCryptoApp.swift in Sources */,
