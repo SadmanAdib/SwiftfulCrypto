@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		3244397628EBDDC2006A15EC /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3244397528EBDDC2006A15EC /* LocalFileManager.swift */; };
 		3244397828EC4975006A15EC /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3244397728EC4975006A15EC /* SearchBarView.swift */; };
+		3244397C28EDEE69006A15EC /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3244397B28EDEE69006A15EC /* StatisticModel.swift */; };
+		3244397E28EDEEB0006A15EC /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3244397D28EDEEB0006A15EC /* StatisticView.swift */; };
+		3244398028EDF12A006A15EC /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3244397F28EDF12A006A15EC /* HomeStatsView.swift */; };
 		32DEADAD28E0409000E97CD8 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DEADAC28E0409000E97CD8 /* SwiftfulCryptoApp.swift */; };
 		32DEADAF28E0409000E97CD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DEADAE28E0409000E97CD8 /* ContentView.swift */; };
 		32DEADB128E0409200E97CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DEADB028E0409200E97CD8 /* Assets.xcassets */; };
@@ -32,6 +35,9 @@
 /* Begin PBXFileReference section */
 		3244397528EBDDC2006A15EC /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		3244397728EC4975006A15EC /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		3244397B28EDEE69006A15EC /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
+		3244397D28EDEEB0006A15EC /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		3244397F28EDF12A006A15EC /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
 		32DEADA928E0409000E97CD8 /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DEADAC28E0409000E97CD8 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		32DEADAE28E0409000E97CD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +143,7 @@
 			children = (
 				32DEADC128E2D6B600E97CD8 /* HomeView.swift */,
 				32DEADCC28E6A0F300E97CD8 /* CoinRowView.swift */,
+				3244397F28EDF12A006A15EC /* HomeStatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,6 +162,7 @@
 				32DEADDA28E82DBA00E97CD8 /* CoinImage */,
 				32DEADC428E2D7E900E97CD8 /* CircleButton */,
 				3244397728EC4975006A15EC /* SearchBarView.swift */,
+				3244397D28EDEEB0006A15EC /* StatisticView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -172,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				32DEADCA28E479F600E97CD8 /* CoinModel.swift */,
+				3244397B28EDEE69006A15EC /* StatisticModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -273,6 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3244397C28EDEE69006A15EC /* StatisticModel.swift in Sources */,
+				3244397E28EDEEB0006A15EC /* StatisticView.swift in Sources */,
 				32DEADD628E6FE2800E97CD8 /* CoinDataService.swift in Sources */,
 				32DEADCD28E6A0F300E97CD8 /* CoinRowView.swift in Sources */,
 				32DEADD328E6EFDD00E97CD8 /* HomeViewModel.swift in Sources */,
@@ -282,6 +293,7 @@
 				32DEADDC28E82DC700E97CD8 /* CoinImageView.swift in Sources */,
 				32DEADAD28E0409000E97CD8 /* SwiftfulCryptoApp.swift in Sources */,
 				32DEADC628E2D7F400E97CD8 /* CircleButtonView.swift in Sources */,
+				3244398028EDF12A006A15EC /* HomeStatsView.swift in Sources */,
 				32DEADBC28E0442000E97CD8 /* Color.swift in Sources */,
 				3244397828EC4975006A15EC /* SearchBarView.swift in Sources */,
 				32DEADD928E7F22900E97CD8 /* NetworkingManager.swift in Sources */,
