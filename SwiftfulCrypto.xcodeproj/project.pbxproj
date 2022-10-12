@@ -12,6 +12,8 @@
 		3244397C28EDEE69006A15EC /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3244397B28EDEE69006A15EC /* StatisticModel.swift */; };
 		3244397E28EDEEB0006A15EC /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3244397D28EDEEB0006A15EC /* StatisticView.swift */; };
 		3244398028EDF12A006A15EC /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3244397F28EDF12A006A15EC /* HomeStatsView.swift */; };
+		327272EC28F66C4700F5909F /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327272EB28F66C4700F5909F /* MarketDataModel.swift */; };
+		327272EE28F66DD800F5909F /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327272ED28F66DD800F5909F /* MarketDataService.swift */; };
 		32DEADAD28E0409000E97CD8 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DEADAC28E0409000E97CD8 /* SwiftfulCryptoApp.swift */; };
 		32DEADAF28E0409000E97CD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DEADAE28E0409000E97CD8 /* ContentView.swift */; };
 		32DEADB128E0409200E97CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DEADB028E0409200E97CD8 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 		3244397B28EDEE69006A15EC /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 		3244397D28EDEEB0006A15EC /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		3244397F28EDF12A006A15EC /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
+		327272EB28F66C4700F5909F /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
+		327272ED28F66DD800F5909F /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		32DEADA928E0409000E97CD8 /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DEADAC28E0409000E97CD8 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		32DEADAE28E0409000E97CD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -181,6 +185,7 @@
 			children = (
 				32DEADCA28E479F600E97CD8 /* CoinModel.swift */,
 				3244397B28EDEE69006A15EC /* StatisticModel.swift */,
+				327272EB28F66C4700F5909F /* MarketDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 			children = (
 				32DEADD528E6FE2800E97CD8 /* CoinDataService.swift */,
 				32DEADDD28E82FB500E97CD8 /* CoinImageService.swift */,
+				327272ED28F66DD800F5909F /* MarketDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -283,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3244397C28EDEE69006A15EC /* StatisticModel.swift in Sources */,
+				327272EE28F66DD800F5909F /* MarketDataService.swift in Sources */,
 				3244397E28EDEEB0006A15EC /* StatisticView.swift in Sources */,
 				32DEADD628E6FE2800E97CD8 /* CoinDataService.swift in Sources */,
 				32DEADCD28E6A0F300E97CD8 /* CoinRowView.swift in Sources */,
@@ -295,6 +302,7 @@
 				32DEADC628E2D7F400E97CD8 /* CircleButtonView.swift in Sources */,
 				3244398028EDF12A006A15EC /* HomeStatsView.swift in Sources */,
 				32DEADBC28E0442000E97CD8 /* Color.swift in Sources */,
+				327272EC28F66C4700F5909F /* MarketDataModel.swift in Sources */,
 				3244397828EC4975006A15EC /* SearchBarView.swift in Sources */,
 				32DEADD928E7F22900E97CD8 /* NetworkingManager.swift in Sources */,
 				32DEADC828E2DEB600E97CD8 /* CircleButtonAnimationView.swift in Sources */,
