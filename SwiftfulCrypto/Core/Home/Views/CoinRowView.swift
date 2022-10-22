@@ -27,6 +27,9 @@ struct CoinRowView: View {
             
         }
         .font(.subheadline)
+        .background(
+            Color.theme.background // added this color to make the whole coin row tappable.
+        )
     }
 }
 
