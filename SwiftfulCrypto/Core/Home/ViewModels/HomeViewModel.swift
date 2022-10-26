@@ -12,6 +12,7 @@ class HomeViewModel: ObservableObject {
     
     @Published var showPortfolio: Bool = false //animate right
     @Published var showPortfolioView: Bool = false //new sheet
+    @Published var showSettingsView: Bool = false
     
     @Published var isLoading: Bool = false
     

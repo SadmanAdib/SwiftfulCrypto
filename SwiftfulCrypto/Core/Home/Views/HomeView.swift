@@ -13,6 +13,7 @@ struct HomeView: View {
     
     @State private var selectedCoin: CoinModel? = nil
     @State private var showDetailView: Bool = false
+//    @State private var showSettingsView: Bool = false
     
     var body: some View {
         ZStack {
@@ -23,6 +24,7 @@ struct HomeView: View {
                     PortfolioView()
                         .environmentObject(vm)
                 }
+            //cannot add another sheet here as they would be in the same view hierarchy.
             
             //content layer
             VStack {
@@ -45,6 +47,9 @@ struct HomeView: View {
                 }
                
                 Spacer(minLength: 0)
+            }
+            .sheet(isPresented: $vm.showSettingsView) {
+                SettingsView()
             }
             
         }
@@ -76,6 +81,8 @@ extension HomeView {
                 .onTapGesture {
                     if vm.showPortfolio {
                         vm.showPortfolioView.toggle()
+                    } else {
+                        vm.showSettingsView.toggle()
                     }
                 }
                 .background {
