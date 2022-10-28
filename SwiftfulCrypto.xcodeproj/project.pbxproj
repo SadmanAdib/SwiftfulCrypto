@@ -29,6 +29,8 @@
 		3272730C290637B800F5909F /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272730B290637B800F5909F /* Date.swift */; };
 		3272730E2907A2A800F5909F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272730D2907A2A800F5909F /* String.swift */; };
 		3272731229094A6700F5909F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272731129094A6700F5909F /* SettingsView.swift */; };
+		3272731A290B819800F5909F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32727319290B819800F5909F /* LaunchScreen.storyboard */; };
+		3272731C290B831200F5909F /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272731B290B831200F5909F /* LaunchView.swift */; };
 		32DEADAD28E0409000E97CD8 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DEADAC28E0409000E97CD8 /* SwiftfulCryptoApp.swift */; };
 		32DEADAF28E0409000E97CD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DEADAE28E0409000E97CD8 /* ContentView.swift */; };
 		32DEADB128E0409200E97CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DEADB028E0409200E97CD8 /* Assets.xcassets */; };
@@ -72,6 +74,8 @@
 		3272730B290637B800F5909F /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		3272730D2907A2A800F5909F /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		3272731129094A6700F5909F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		32727319290B819800F5909F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3272731B290B831200F5909F /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		32DEADA928E0409000E97CD8 /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DEADAC28E0409000E97CD8 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		32DEADAE28E0409000E97CD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,6 +150,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		32727313290B79DA00F5909F /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				32727314290B79E100F5909F /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		32727314290B79E100F5909F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32727319290B819800F5909F /* LaunchScreen.storyboard */,
+				3272731B290B831200F5909F /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		32DEADA028E0409000E97CD8 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +223,7 @@
 		32DEADBD28E2D68700E97CD8 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				32727313290B79DA00F5909F /* Launch */,
 				32DEADC328E2D7DF00E97CD8 /* Components */,
 				32DEADBE28E2D68E00E97CD8 /* Home */,
 				327272FE290398AE00F5909F /* Detail */,
@@ -361,6 +383,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3272731A290B819800F5909F /* LaunchScreen.storyboard in Resources */,
 				32DEADB428E0409200E97CD8 /* Preview Assets.xcassets in Resources */,
 				32DEADB128E0409200E97CD8 /* Assets.xcassets in Resources */,
 			);
@@ -389,6 +412,7 @@
 				3244397628EBDDC2006A15EC /* LocalFileManager.swift in Sources */,
 				32DEADC228E2D6B600E97CD8 /* HomeView.swift in Sources */,
 				32DEADDC28E82DC700E97CD8 /* CoinImageView.swift in Sources */,
+				3272731C290B831200F5909F /* LaunchView.swift in Sources */,
 				32DEADAD28E0409000E97CD8 /* SwiftfulCryptoApp.swift in Sources */,
 				32DEADC628E2D7F400E97CD8 /* CircleButtonView.swift in Sources */,
 				327273022903991B00F5909F /* DetailView.swift in Sources */,
@@ -544,7 +568,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -574,7 +598,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
