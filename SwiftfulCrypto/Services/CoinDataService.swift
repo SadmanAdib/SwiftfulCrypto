@@ -23,6 +23,7 @@ class CoinDataService {
 //      After refactoring to make it reusable
         coinSubscription = NetworkingManager.download(url: url)
             .decode(type: [CoinModel].self, decoder: JSONDecoder())
+            .receive(on: DispatchQueue.main)
             .sink(receiveCompletion: NetworkingManager.handleCompletion,
                   receiveValue: { [weak self] (returnedCoins) in
                 self?.allCoins = returnedCoins

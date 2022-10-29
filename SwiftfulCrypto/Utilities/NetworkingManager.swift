@@ -26,9 +26,10 @@ class NetworkingManager {
     
     static func download(url: URL) -> AnyPublisher<Data, Error> {
         return URLSession.shared.dataTaskPublisher(for: url)
-             .subscribe(on: DispatchQueue.global(qos: .default)) // dataTaskPublisher already sibscribes to the background thread, but still doing explicitly to stay safe.
+             //.subscribe(on: DispatchQueue.global(qos: .default)) // dataTaskPublisher already sibscribes to the background thread, but still doing explicitly to stay safe.
              .tryMap({ try handleURLResponse(output: $0, url: url) })
-             .receive(on: DispatchQueue.main)
+             //.receive(on: DispatchQueue.main)// returning to the main thread // recieving on the main thread from call sites or else call sites use the main thread to perform heavy tasks.
+             .retry(3)
              .eraseToAnyPublisher() // this converts the complex return type to AnyPublisher<Data, Error>
     }
     

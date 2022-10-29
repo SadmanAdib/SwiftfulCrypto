@@ -26,6 +26,7 @@ struct SwiftfulCryptoApp: App {
                     HomeView()
                         .navigationBarHidden(true)
                 }
+                .navigationViewStyle(StackNavigationViewStyle())// Forces the iPad to have the same styling as the iPhone
                 .environmentObject(vm)
                 
                 ZStack {

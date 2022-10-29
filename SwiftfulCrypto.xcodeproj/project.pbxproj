@@ -32,7 +32,6 @@
 		3272731A290B819800F5909F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32727319290B819800F5909F /* LaunchScreen.storyboard */; };
 		3272731C290B831200F5909F /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272731B290B831200F5909F /* LaunchView.swift */; };
 		32DEADAD28E0409000E97CD8 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DEADAC28E0409000E97CD8 /* SwiftfulCryptoApp.swift */; };
-		32DEADAF28E0409000E97CD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DEADAE28E0409000E97CD8 /* ContentView.swift */; };
 		32DEADB128E0409200E97CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DEADB028E0409200E97CD8 /* Assets.xcassets */; };
 		32DEADB428E0409200E97CD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DEADB328E0409200E97CD8 /* Preview Assets.xcassets */; };
 		32DEADBC28E0442000E97CD8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DEADBB28E0442000E97CD8 /* Color.swift */; };
@@ -78,7 +77,6 @@
 		3272731B290B831200F5909F /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		32DEADA928E0409000E97CD8 /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DEADAC28E0409000E97CD8 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
-		32DEADAE28E0409000E97CD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32DEADB028E0409200E97CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32DEADB328E0409200E97CD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32DEADBB28E0442000E97CD8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -192,7 +190,6 @@
 				32DEADD428E6FE0F00E97CD8 /* Services */,
 				32DEADC928E479E500E97CD8 /* Models */,
 				32DEADBD28E2D68700E97CD8 /* Core */,
-				32DEADAE28E0409000E97CD8 /* ContentView.swift */,
 				32DEADB028E0409200E97CD8 /* Assets.xcassets */,
 				32DEADB228E0409200E97CD8 /* Preview Content */,
 			);
@@ -407,7 +404,6 @@
 				32DEADD628E6FE2800E97CD8 /* CoinDataService.swift in Sources */,
 				32DEADCD28E6A0F300E97CD8 /* CoinRowView.swift in Sources */,
 				32DEADD328E6EFDD00E97CD8 /* HomeViewModel.swift in Sources */,
-				32DEADAF28E0409000E97CD8 /* ContentView.swift in Sources */,
 				327272F028F7CE8500F5909F /* PortfolioView.swift in Sources */,
 				3244397628EBDDC2006A15EC /* LocalFileManager.swift in Sources */,
 				32DEADC228E2D6B600E97CD8 /* HomeView.swift in Sources */,
