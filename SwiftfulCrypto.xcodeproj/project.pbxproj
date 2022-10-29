@@ -184,8 +184,8 @@
 		32DEADAB28E0409000E97CD8 /* SwiftfulCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				32DEADD728E7F21600E97CD8 /* Utilities */,
 				32DEADAC28E0409000E97CD8 /* SwiftfulCryptoApp.swift */,
+				32DEADD728E7F21600E97CD8 /* Utilities */,
 				32DEADBA28E0440A00E97CD8 /* Extensions */,
 				32DEADD428E6FE0F00E97CD8 /* Services */,
 				32DEADC928E479E500E97CD8 /* Models */,

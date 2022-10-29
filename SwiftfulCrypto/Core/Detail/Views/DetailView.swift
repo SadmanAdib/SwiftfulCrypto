@@ -65,6 +65,10 @@ struct DetailView: View {
                 }
             }
         }
+        .background(
+            Color.theme.background
+                .ignoresSafeArea()
+        )
         .padding()
         .navigationTitle(vm.coin.name)
         .toolbar {
